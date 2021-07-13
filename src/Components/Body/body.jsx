@@ -30,6 +30,9 @@ const body = () => {
                                             <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
                                         </svg>
                                     </a>
+                                    <a class="flex items-center mx-2 text-gray-800 hover:text-indigo-600" href="https://drive.google.com/file/d/1cmDkTVUb4p1TGFqSVKS-bHTOcrLeIpHl/view?usp=sharing">
+                                    <img src="https://img.icons8.com/material-rounded/24/000000/parse-from-clipboard.png" style={{height:'24px',width:'26px',marginTop:'6px'}}/>
+                                    </a>
 
 
                                     <a class="flex items-center mx-2 text-gray-800 hover:text-indigo-600" href="https://github.com/AgustinReynaud">
@@ -215,13 +218,13 @@ const body = () => {
                                 </div>
                             </div>
 
-                           
+
                         </div>
                     </section>
 
                     <section className="pattern">
-                        <div class="max-w-5xl px-6 mx-auto text-center">
-                            <h2 class="text-2xl font-semibold text-white">Projects</h2>
+                        <div class="max-w-5xl px-6 mx-auto text-center"><br />
+                            <h2 class="text-2xl font-semibold text-white">Proyectos</h2><br />
 
                             <div className='grid grid-cols-1 sm:grid-cols-3 gap-6'>
 
@@ -230,10 +233,10 @@ const body = () => {
 
                                     <div class="max-w-xs w-full">
                                         <div class="flex items-center justify-center h-56 bg-white border-b-8 border-teal-400 rounded-md overflow-hidden">
-                                            <img class="object-cover h-8" src={Edicom}  style={{width:'90rem' , height : '14rem'}}alt="" />
+                                            <img class="object-cover h-8" src={Edicom} style={{ width: '90rem', height: '14rem' }} alt="" />
                                         </div>
 
-                                        <a href="#" class="block bg-gray-700 mt-5 rounded-md overflow-hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                                        <a href="https://github.com/Grupo-5-PF/EDICOM" class="block bg-gray-700 mt-5 rounded-md overflow-hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                                             <div class="py-2 px-3 text-center text-sm">
                                                 <p class="text-gray-300">DESARROLLO SISTEMA GESTIÓN DE CONSORCIOS</p>
 
@@ -252,7 +255,7 @@ const body = () => {
 
                                 <div class="max-w-xs w-full">
                                     <div class="flex items-center justify-center h-56 bg-white border-b-8 border-teal-400 rounded-md overflow-hidden">
-                                        <img class="object-cover h-8" src={AdaLove} alt="" style={{width:'90rem' , height : '14rem'}}/>
+                                        <img class="object-cover h-8" src={AdaLove} alt="" style={{ width: '90rem', height: '14rem' }} />
                                     </div>
 
                                     <a href="https://e-commerce-g6.netlify.app/" class="block bg-gray-700 mt-5 rounded-md overflow-hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
@@ -262,7 +265,7 @@ const body = () => {
                                             <span class="block text-gray-500 mt-2 text-justify">
 
                                                 Con grupo de 7 compañeros,
-                                               hicimos un ecommerce,en donde un usuario ingresa con su cuenta,
+                                                hicimos un ecommerce,en donde un usuario ingresa con su cuenta,
                                                 elige su prenda o puede crear una propia
                                                 , y agregarla al carro para luego comprarla. Una vez realizada
                                                 la compra le llegará un mail con la información y factura.<br />
@@ -275,10 +278,10 @@ const body = () => {
 
                                 <div class="max-w-xs w-full">
                                     <div class="flex items-center justify-center h-56 bg-white border-b-8 border-teal-400 rounded-md overflow-hidden">
-                                        <img class="object-cover h-8" src={Appa} style={{width:'90rem' , height : '14rem'}} alt="" />
+                                        <img class="object-cover h-8" src={Appa} style={{ width: '90rem', height: '14rem' }} alt="" />
                                     </div>
 
-                                    <a href="#" class="block bg-gray-700 mt-5 rounded-md overflow-hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
+                                    <a href="https://github.com/AgustinReynaud/Countries-" class="block bg-gray-700 mt-5 rounded-md overflow-hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                                         <div class="py-2 px-3 text-center text-sm">
                                             <p class="text-gray-300">DESARROLLO APP-COUNTRIES</p>
 
@@ -289,7 +292,7 @@ const body = () => {
                                                 respectivos datos comocantidad de habitantes, capitales, sus actividades ,
                                                 y también poder filtrarpor cantidad de habitantes ,actividades ,
                                                 u ordenar de forma ascendente odescendente .<br />
-                                                Tecnologías usadas: Java Script, React js,Redux,Nodejs,Tailwind,PostgreSQL.<br/>
+                                                Tecnologías usadas: Java Script, React js,Redux,Nodejs,Tailwind,PostgreSQL.<br />
                                                 Uso de metodología Kanban</span>
                                         </div>
                                     </a>
@@ -301,7 +304,7 @@ const body = () => {
 
                         <div class="flex items-center justify-center mt-12">
                             <a class="flex items-center text-white hover:underline hover:text-gray-200" href="https://github.com/AgustinReynaud">
-                                <span>View More On Github</span>
+                                <span>Ver mas proyectos en Github</span>
 
                                 <svg class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -319,12 +322,14 @@ const body = () => {
                                 </div>
 
                                 <div class="flex items-center -mx-2">
-                                <a class="flex items-center mx-2 text-gray-800 hover:text-indigo-600" href="https://www.linkedin.com/in/agustinreynaud/">
+                                    <a class="flex items-center mx-2 text-gray-800 hover:text-indigo-600" href="https://www.linkedin.com/in/agustinreynaud/">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                             <path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
                                         </svg>
                                     </a>
-
+                                    <a class="flex items-center mx-2 text-gray-800 hover:text-indigo-600" href="https://drive.google.com/file/d/1cmDkTVUb4p1TGFqSVKS-bHTOcrLeIpHl/view?usp=sharing">
+                                    <img src="https://img.icons8.com/material-rounded/24/000000/parse-from-clipboard.png" style={{height:'24px',width:'26px',marginTop:'6px'}}/>
+                                    </a>
 
                                     <a class="flex items-center mx-2 text-gray-800 hover:text-indigo-600" href="https://github.com/AgustinReynaud">
                                         <svg class="h-5 w-5 sm:h-6 sm:w-6 fill-current" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
