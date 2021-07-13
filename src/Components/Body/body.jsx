@@ -88,8 +88,8 @@ const body = () => {
                             <h2 class="text-2xl font-semibold text-white">Acerca de Mí</h2>
 
                             <p class="text-gray-400 mt-4">Vivo en Mendoza , tengo 23 años, en mis ratos libres me encanta tocar la guitarra, hacer deportes , estar con amigos.
-                                Empecé en el mundo IT hace un año en Egg Educacion haciendo un curso de Java, luego segui de forma autodidacta hasta que me inscribí en Henry. En este
-                                ultimo aprendi JavaScript, Node js, React, Redux, Tailwind, Material UI y mejore mucho las habilidades blandas trabajando en equipo.  </p>
+                                Empecé en el mundo IT hace un año en Egg Educación haciendo un curso de Java, luego seguí de forma autodidacta hasta que me inscribí en Henry. En este
+                                último aprendi JavaScript, Node js, React, Redux, Tailwind, Material UI y mejore mucho las habilidades blandas trabajando en equipo.  </p>
                         </div>
                     </section>
 
@@ -103,7 +103,7 @@ const body = () => {
 
                                     <div class="md:w-1/2 lg:w-1/3 py-4 px-4" >
                                         <div class=" ">
-                                            <a href="/donee/donee-2">
+                                            <a href="#">
                                                 <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
 
                                                     <div class="flex justify-center">
@@ -139,6 +139,8 @@ const body = () => {
 
                                         </div>
                                     </div>
+
+
 
 
                                     <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
@@ -213,6 +215,44 @@ const body = () => {
 
                                         </div>
 
+                                    </div>
+
+                                    <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
+                                        <div class=" ">
+                                            <a href="/donee/donee-2">
+                                                <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
+
+                                                    <div class="flex justify-center">
+                                                        <img src="https://img.icons8.com/color/452/material-ui.png" />
+                                                    </div>
+                                                    <div class="py-2 px-2">
+                                                        <div class=" font-bold font-title text-center">Material UI</div>
+
+
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="md:w-1/2 lg:w-1/3 py-4 px-4">
+                                        <div class=" ">
+                                            <a href="/donee/donee-2">
+                                                <div class="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
+
+                                                    <div class="flex justify-center">
+                                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-obK52iMXjLI8yQVGvTeLGcazKgQP1AmpUeOuh1I0mB2UEjnCavYvqT1zGPxx1vVHaw&usqp=CAU" />
+                                                    </div>
+                                                    <div class="py-2 px-2 pt-16">
+                                                        <div class=" font-bold font-title text-center">GitHub</div>
+
+
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                        </div>
                                     </div>
 
                                 </div>
